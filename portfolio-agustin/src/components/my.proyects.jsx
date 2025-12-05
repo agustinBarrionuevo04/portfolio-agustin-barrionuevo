@@ -30,7 +30,7 @@ export function MyProjects() {
                     <p className="text-sm uppercase tracking-[0.4em] text-slate-400">Proyectos</p>
                     <h2 className="font-display text-3xl font-semibold text-white sm:text-4xl">Mis proyectos destacados</h2>
                 </div>
-                <span className="text-sm text-slate-400">Stack preferido: React · FastAPI · SQLAlchemy</span>
+                {/* <span className="text-sm text-slate-400">Stack preferido: React · FastAPI · SQLAlchemy</span> */}
             </div>
             <div className="grid gap-6 md:grid-cols-2">
                 {projects.map((project) => (

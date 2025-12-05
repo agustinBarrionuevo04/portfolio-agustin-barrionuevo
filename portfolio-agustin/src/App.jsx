@@ -1,11 +1,13 @@
 import { AboutSection } from './components/about-section';
 import { MyProjects } from './components/my.proyects';
 import { Technologies } from './components/technologies';
+import { Contact } from './components/contact';
 
 const sections = [
   { id: 'about', label: 'Sobre mí' },
   { id: 'projects', label: 'Proyectos' },
   { id: 'technologies', label: 'Tecnologías' },
+  { id: 'contact', label: 'Contacto' },
 ];
 
 export function App() {
@@ -25,14 +27,14 @@ export function App() {
         <header className="sticky top-4 z-10">
           <div className="flex flex-col gap-4 rounded-3xl border border-white/10 bg-slate-900/80 p-6 backdrop-blur-xl shadow-glow md:flex-row md:items-center md:justify-between">
             <div>
-              <p className="text-xs uppercase tracking-[0.4em] text-slate-400">
-                Portfolio
-              </p>
+              {/* <p className="text-xs uppercase tracking-[0.4em] text-slate-400">
+
+              </p> */}
               <p className="font-display text-2xl font-semibold text-white">
                 Agustin Barrionuevo
               </p>
               <p className="text-sm text-slate-400">
-                Desarrollo web · Machine Learning · Cs. de la Computación
+                Cs. de la Computación · Machine Learning · Desarrollo backend
               </p>
             </div>
             <div className="flex flex-wrap gap-3">
@@ -53,6 +55,7 @@ export function App() {
           <AboutSection onNavigate={handleNavigate} />
           <MyProjects />
           <Technologies />
+          <Contact />
         </main>
       </div>
     </div>

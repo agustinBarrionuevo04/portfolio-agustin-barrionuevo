@@ -9,7 +9,7 @@ export function AboutSection({ onNavigate }) {
                     Sobre mí
                 </p>
                 <h1 className="font-display text-4xl font-semibold text-white sm:text-5xl">
-                    Desarrollador web y estudiante de Ciencias de la Computación
+                    Estudiante de Ciencias de la Computación y Desarrollador backend
                 </h1>
                 <p className="text-lg text-slate-300">
                     Soy estudiante de Ciencias de la Computación, apasionado por el aprendizaje continuo
@@ -18,7 +18,7 @@ export function AboutSection({ onNavigate }) {
                 </p>
                 <p className="text-lg text-slate-300">
                     También sigo de cerca las tendencias del desarrollo web moderno para crear experiencias
-                    digitales accesibles, performantes y atractivas.
+                    digitales accesibles y atractivas.
                 </p>
                 <div className="flex flex-wrap gap-4 pt-4">
                     <button
@@ -37,16 +37,12 @@ export function AboutSection({ onNavigate }) {
             </div>
             <div className="rounded-2xl border border-white/5 bg-slate-900/70 p-6">
                 <p className="text-sm uppercase tracking-[0.3em] text-slate-400">
-                    Mirada profesional
+                    Lo que hago
                 </p>
                 <p className="mt-3 text-2xl font-semibold text-white">
-                    Construyo soluciones enfocadas en la calidad, la escalabilidad y el detalle visual.
+                    Construyo soluciones enfocadas en la calidad y la escalabilidad
                 </p>
                 <ul className="mt-6 space-y-4 text-slate-300">
-                    <li className="flex items-start gap-3">
-                        <span className="mt-1 h-2 w-2 rounded-full bg-accent"></span>
-                        Desarrollo interfaces limpias con React y Tailwind enfocadas en UX.
-                    </li>
                     <li className="flex items-start gap-3">
                         <span className="mt-1 h-2 w-2 rounded-full bg-accent"></span>
                         Diseño APIs y servicios rápidos usando Python, FastAPI y bases de datos SQL/NoSQL.
@@ -54,6 +50,10 @@ export function AboutSection({ onNavigate }) {
                     <li className="flex items-start gap-3">
                         <span className="mt-1 h-2 w-2 rounded-full bg-accent"></span>
                         Exploro técnicas de Machine Learning para agregar valor a cada producto.
+                    </li>
+                    <li className="flex items-start gap-3">
+                        <span className="mt-1 h-2 w-2 rounded-full bg-accent"></span>
+                        Desarrollo interfaces limpias con React y Tailwind enfocadas en UX.
                     </li>
                 </ul>
             </div>

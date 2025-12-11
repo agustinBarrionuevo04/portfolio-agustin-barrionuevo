@@ -32,7 +32,7 @@ export function Technologies() {
             <div>
                 <p className="text-sm uppercase tracking-[0.4em] text-slate-400">Stack</p>
                 <h2 className="font-display text-3xl font-semibold text-white sm:text-4xl">
-                    Tecnologías & habilidades
+                    Tecnologías con las que trabaje y mis habilidades
                 </h2>
             </div>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

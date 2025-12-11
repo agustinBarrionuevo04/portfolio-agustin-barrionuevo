@@ -1,3 +1,6 @@
+import cabanas from "../assets/cabanasLaGranja.png";
+import deathCards from "../assets/deathOnTheCard.png";
+
 export function MyProjects() {
     const projects = [
         {
@@ -5,21 +8,21 @@ export function MyProjects() {
             description:
                 "Juego narrativo de misterio donde el objetivo es resolver el caso antes de que el tiempo se agote. Frontend en React, backend con FastAPI y persistencia mediante SQLAlchemy.",
             link: "https://github.com/agustinBarrionuevo04/Game_Agatha-Criestie_Death_of_the_cards",
-            image: ""
+            image: deathCards
         },
         {
-            title: "Cabañas La Granja · Sitio institucional",
+            title: "Cabañas La Granja - Landing Page",
             description:
                 "Landing page construida con Next.js, React y TypeScript para mostrar servicios, disponibilidad y contacto de un complejo turístico. Tailwind CSS para el layout adaptable.",
             link: "https://lagranja-cabanas.vercel.app/",
-            image: ""
+            image: cabanas
         },
         {
-            title: "Face Identification Toolkit",
+            title: "Face Identification",
             description:
                 "Sistema de reconocimiento facial apoyado en Python, OpenCV y modelos de Machine Learning para validar identidades en imágenes o video en tiempo real.",
             link: "https://github.com/agustinBarrionuevo04/FaceId",
-            image: ""
+            image: "https://plurilock.com/wp-content/uploads/2024/02/dreamstime_m_137534981-1024x661.jpg"
         }
     ];
 

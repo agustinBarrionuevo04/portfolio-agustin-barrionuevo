@@ -1,5 +1,6 @@
 import cabanas from "../assets/cabanasLaGranja.png";
 import deathCards from "../assets/deathOnTheCard.png";
+import chatbot from "../assets/portada_wsp_chatbot.png";
 
 export function MyProjects() {
     const projects = [
@@ -16,6 +17,13 @@ export function MyProjects() {
                 "Landing page construida con Next.js, React y TypeScript para mostrar servicios, disponibilidad y contacto de un complejo turístico. Tailwind CSS para el layout adaptable.",
             link: "https://lagranja-cabanas.vercel.app/",
             image: cabanas
+        },
+        {
+            title: "WhatsApp Personal Chatbot",
+            description:
+                "Chatbot inteligente para WhatsApp que usa NLP con @nlpjs, registra gastos automáticamente en Google Sheets y se integra con WhatsApp Web, Node.js y pipelines de testing con Jest.",
+            link: "https://github.com/agustinBarrionuevo04/personal-chatbot",
+            image: chatbot
         },
         {
             title: "Face Identification",

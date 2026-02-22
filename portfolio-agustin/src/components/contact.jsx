@@ -11,7 +11,7 @@ const contactMethods = [
     {
         label: 'LinkedIn',
         value: 'Agustin Barrionuevo',
-        href: 'https://www.linkedin.com/in/brian-barrionuevo-190a73294/',
+        href: 'https://www.linkedin.com/in/brian-agustin-barrionuevo-190a73294',
         icon: SiLinkedin,
         external: true,
     },
